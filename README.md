@@ -1,9 +1,7 @@
 # EPIC-RPG-GRINDING-SELF-BOT-FOR-DISCORD
 A lightweight Discord self-bot built to automate Epic RPG commands like auto-hunt, battle, and healing. Features can be toggled in config.json. No inventory or item management is included
 
-
-
-
+![image](https://github.com/user-attachments/assets/da938a2f-76fc-4dd7-86fe-e8a76b5ecf08)
 
 
 ⚠️ DISCLAIMER-------
@@ -16,6 +14,7 @@ I do not guarantee safety, uptime, or full Discord compatibility.
 This is for educational/personal use only.
 
 
+![4df2f083-d49b-42a5-b74c-d69af8df434a](https://github.com/user-attachments/assets/e6886085-6ded-4eaa-82a8-a89a47650bd8)
 
 
 🛠️ Current Features-----
