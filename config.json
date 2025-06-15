@@ -1,11 +1,11 @@
 {
   "commands": {
     "grinding": {
-      "active": true,
+      "active": false,
       "cooldown": 30
     },
     "battling": {
-      "active": true,
+      "active": false,
       "cooldown": 60
     }
   }
