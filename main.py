@@ -28,7 +28,7 @@ with open(resource_path("config.json")) as file:
 load_dotenv()
 TOKEN_USER = os.getenv("TOKEN")
 client = discord.Client()
-channel_id = 1383322889331413085
+channel_id = "Channel id"
 
 package_variable = ["asyncio", "discord.py-self", "dotenv" ]
 
