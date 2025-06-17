@@ -1,0 +1,66 @@
+2025-06-17 17:32:42,299 - WARNING - PyNaCl is not installed, voice will NOT be supported.
+2025-06-17 17:32:44,625 - INFO - Logging in using static token.
+2025-06-17 17:32:46,109 - INFO - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", build number 409725.
+2025-06-17 17:32:46,109 - INFO - Found TLS fingerprint target "chrome136".
+2025-06-17 17:32:48,165 - INFO - Connected to Gateway (Session ID: 6bf25cf03b6169ace4ce378a64c7e276).
+2025-06-17 17:32:54,187 - INFO - Horse training command has been executed
+2025-06-17 17:32:56,717 - INFO - quest command has been executed
+2025-06-17 17:33:50,007 - INFO - hunt command has been executed
+2025-06-17 17:33:50,430 - INFO - adventure command has been executed
+2025-06-17 17:33:53,267 - INFO - Horse training command has been executed
+2025-06-17 17:34:51,651 - INFO - hunt command has been executed
+2025-06-17 17:34:55,388 - INFO - Horse training command has been executed
+2025-06-17 17:35:52,283 - INFO - Horse training command has been executed
+2025-06-17 17:35:54,545 - INFO - hunt command has been executed
+2025-06-17 17:36:41,998 - INFO - Closing websocket with code 1000
+2025-06-17 17:36:42,001 - INFO - Finished closing websocket
+2025-06-17 17:36:51,629 - WARNING - PyNaCl is not installed, voice will NOT be supported.
+2025-06-17 17:36:58,048 - INFO - Logging in using static token.
+2025-06-17 17:36:59,139 - INFO - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", build number 409725.
+2025-06-17 17:36:59,139 - INFO - Found TLS fingerprint target "chrome136".
+2025-06-17 17:37:01,142 - INFO - Connected to Gateway (Session ID: 02b28ff0d0afc0339df7a43a0d5dc129).
+2025-06-17 17:37:01,537 - INFO - Logged in as const.dc
+2025-06-17 17:37:07,134 - INFO - Horse training command has been executed
+2025-06-17 17:37:10,657 - INFO - quest command has been executed
+2025-06-17 17:38:03,126 - INFO - hunt command has been executed
+2025-06-17 17:38:03,721 - INFO - adventure command has been executed
+2025-06-17 17:38:06,152 - INFO - Horse training command has been executed
+2025-06-17 17:39:04,698 - INFO - hunt command has been executed
+2025-06-17 17:39:08,062 - INFO - Horse training command has been executed
+2025-06-17 17:40:05,313 - INFO - Horse training command has been executed
+2025-06-17 17:40:07,301 - INFO - hunt command has been executed
+2025-06-17 17:40:09,344 - INFO - Closing websocket with code 1000
+2025-06-17 17:40:09,347 - INFO - Finished closing websocket
+2025-06-17 17:46:31,708 - WARNING - PyNaCl is not installed, voice will NOT be supported.
+2025-06-17 17:46:34,028 - INFO - Logging in using static token.
+2025-06-17 17:46:35,152 - INFO - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", build number 409725.
+2025-06-17 17:46:35,152 - INFO - Found TLS fingerprint target "chrome136".
+2025-06-17 17:46:37,041 - INFO - Connected to Gateway (Session ID: 94847a1d60e3588fa083ba6f5ec3b85f).
+2025-06-17 17:46:37,429 - INFO - Logged in as const.dc
+2025-06-17 17:46:37,429 - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Adithyan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 692, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Adithyan\Documents\SelfBot\main.py", line 68, in on_ready
+    auto_loop2.start()
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'start'
+2025-06-17 17:46:41,990 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:47:28,749 - INFO - Closing websocket with code 1000
+2025-06-17 17:47:28,751 - INFO - Finished closing websocket
+2025-06-17 17:47:30,293 - WARNING - PyNaCl is not installed, voice will NOT be supported.
+2025-06-17 17:47:32,631 - INFO - Logging in using static token.
+2025-06-17 17:47:33,669 - INFO - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", build number 409725.
+2025-06-17 17:47:33,670 - INFO - Found TLS fingerprint target "chrome136".
+2025-06-17 17:47:35,596 - INFO - Connected to Gateway (Session ID: e4411229f8ed386385f82f1967d91852).
+2025-06-17 17:47:35,949 - INFO - Logged in as const.dc
+2025-06-17 17:47:40,470 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:48:37,769 - INFO - hunt command has been executed
+2025-06-17 17:48:42,509 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:49:40,547 - INFO - hunt command has been executed
+2025-06-17 17:49:40,642 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:50:42,250 - INFO - hunt command has been executed
+2025-06-17 17:50:42,722 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:51:39,537 - INFO - Sent: rpg buy horse (attempted to get horse)
+2025-06-17 17:51:44,386 - INFO - Closing websocket with code 1000
+2025-06-17 17:51:44,386 - INFO - Finished closing websocket
