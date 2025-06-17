@@ -1,12 +1,28 @@
 {
   "commands": {
     "grinding": {
-      "active": false,
+      "active": true,
       "cooldown": 30
     },
     "battling": {
       "active": false,
       "cooldown": 60
+    },
+    "auto_quests": {
+      "active": false,
+      "cooldown": 1800
+    },
+    "auto_miniboss": {
+      "active": false,
+      "cooldown": 900
+    },
+    "horse" : {
+      "active": true,
+      "cooldown": 900
+    },
+    "events" : {
+      "active" : true,
+      "cooldown" : 100
     }
   }
 }
