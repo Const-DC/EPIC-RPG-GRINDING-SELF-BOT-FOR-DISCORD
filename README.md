@@ -1,47 +1,70 @@
-# EPIC-RPG-GRINDING-SELF-BOT-FOR-DISCORD
-A lightweight Discord self-bot built to automate Epic RPG commands like auto-hunt, battle, and healing. Features can be toggled in config.json. No inventory or item management is included
+EPIC RPG GRINDING SELF-BOT for Discord
+A lightweight automation tool for EPIC RPG grinders who are done wasting time.
 
-![image](https://github.com/user-attachments/assets/da938a2f-76fc-4dd7-86fe-e8a76b5ecf08)
-
-
-⚠️ DISCLAIMER-------
-This is a self-bot, and it violates Discord’s Terms of Service.
-
-Use at your own risk. If your account gets banned, that’s on you, not me.
-
-I do not guarantee safety, uptime, or full Discord compatibility.
-
-This is for educational/personal use only.
+⚠️ WARNING:
+This is a self-bot — meaning it violates Discord’s Terms of Service. Use it at your own risk. If you get banned, cry somewhere else.
 
 
-![4df2f083-d49b-42a5-b74c-d69af8df434a](https://github.com/user-attachments/assets/e6886085-6ded-4eaa-82a8-a89a47650bd8)
 
-🛠️ Current Features-----
+🧠 Why?
+Tired of grinding the same EPIC RPG commands like a caveman? This bot automates the boring stuff — so you can level up, stack coins, and flex harder without wasting your life.
 
+🆕 Update 0.1.1 — June 2025 Drop
+Status: Bleeding-edge, unstable. Enjoy the chaos.
+
+✅ Added Interactive Dashboard
+🧠 AI-powered Coin & Growth Prediction
+🐎 Auto-Level Up Horse
+⚔️ Mini Boss Detection & Fighting
+🎉 Auto-Event Participation
+🗺️ Auto Adventure
+
+🛠️ Core Features (more coming soon…)
 🗡️ Automatic Hunting & Battling
+Spam-free loop system with randomized delays to avoid detection.
 
-❤️ Auto-Heal when HP is low
+❤️ Auto-Healing
+Keeps you alive by detecting low HP and healing instantly.
 
-🔄 Looping system with randomized delays
+🔁 Smart Looping
+Randomized command intervals for less detection risk and more human-like behavior.
 
-🔧 Enable/disable features via config.json
+⚙️ Configurable
+Easily enable/disable core features via config.json. Set delays, token, prefix, and other behavior.
 
-⛔ No inventory management (yet – and maybe never)
+📈 AI-Powered Coin & Growth Predictions
+Machine-learns from past events to give insights on best farming cycles. Be smart, not just fast.
 
-![3cffcd95-dd38-4fac-a59a-79b453375754](https://github.com/user-attachments/assets/d21baac5-42b5-4057-80bd-8a494646f37f)
+🐴 Auto-Level Horse
+Every grind matters. Your horse levels while you flex.
+
+🧟‍♂️ Mini Boss Automation
+Detects and attacks mini bosses without needing your sorry input.
+
+🗺️ Auto Adventure
+Let your character explore the world while you explore snacks in the fridge.
 
 
-📦 Early Build Warning-------
-This bot is still in early development, so expect bugs, missing features, and chaos.
-Don’t DM me asking why it doesn’t auto-sell or equip. It wasn't built for that (yet).
 
-![56845d59-801f-4fdb-9e3c-67c9865199da](https://github.com/user-attachments/assets/aeefff1e-2c3c-44e9-9194-8612e9277f4d)
+🧪 Early Build Warning
+This is experimental software. Don’t cry if it breaks. No auto-equip. No auto-sell. No inventory logic.
+Future updates might include those. Or not. Depends on my mood.
+
+🔒 License & Usage Terms
+Free to use and lightly modify (config.json, token, etc.)
+
+Redistribution allowed only with clear credit to @const-DC
+
+Do not steal code or pretend you wrote it.
+
+Full license terms in LICENSE.md
+
+📦 Installation & Setup
+Coming soon. Or you could figure it out yourself if you’re not a total NPC.
+
+❗Disclaimer
+This is for educational and personal use only.
+It’s not affiliated with Discord or Epic RPG. You run it, you own the risk.
+Use on alternate accounts if you don’t want to lose your main.
 
 
-
-
-🔒 License-------
-You may use this bot and lightly modify basic configs (like delay, prefix, or token).
-But the core code is mine.
-Redistribution, republishing, or deep forking is allowed if* with credit.
-Full ownership stays with @const-DC . See LICENSE.md for full control terms.
