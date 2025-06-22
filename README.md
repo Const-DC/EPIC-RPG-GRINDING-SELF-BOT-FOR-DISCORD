@@ -1,70 +1,72 @@
-EPIC RPG GRINDING SELF-BOT for Discord
-A lightweight automation tool for EPIC RPG grinders who are done wasting time.
+⚔️ EPIC RPG GRINDING SELF-BOT for Discord
+A streamlined automation tool for players who've had enough of the grind.
+![455264838-da938a2f-76fc-4dd7-86fe-e8a76b5ecf08](https://github.com/user-attachments/assets/eb091168-45ff-4c71-8280-01aa07d8a5b2)
 
-⚠️ WARNING:
-This is a self-bot — meaning it violates Discord’s Terms of Service. Use it at your own risk. If you get banned, cry somewhere else.
+⚠️ WARNING
+This is a self-bot, which directly violates Discord’s Terms of Service. Use it at your own risk — and if you get banned, go cry somewhere else.
 
+🤖 Why This Exists
+Still typing the same /hunt, /adventure, and /duel commands like it’s the Stone Age? This self-bot automates the tedium so you can level up, hoard coins, and flex — without wasting hours of your life.
 
+🆕 Update 0.1.1 — June 2025
+Status: Bleeding-edge and barely stable. Embrace the chaos.
 
-🧠 Why?
-Tired of grinding the same EPIC RPG commands like a caveman? This bot automates the boring stuff — so you can level up, stack coins, and flex harder without wasting your life.
+New Additions:
 
-🆕 Update 0.1.1 — June 2025 Drop
-Status: Bleeding-edge, unstable. Enjoy the chaos.
-
-✅ Added Interactive Dashboard
 🧠 AI-powered Coin & Growth Prediction
-🐎 Auto-Level Up Horse
-⚔️ Mini Boss Detection & Fighting
+
+🐎 Auto-Leveling for Horses
+
+⚔️ Mini Boss Detection & Combat
+
 🎉 Auto-Event Participation
-🗺️ Auto Adventure
 
-🛠️ Core Features (more coming soon…)
-🗡️ Automatic Hunting & Battling
-Spam-free loop system with randomized delays to avoid detection.
+🗺️ Auto Adventure Mode
 
-❤️ Auto-Healing
-Keeps you alive by detecting low HP and healing instantly.
+✅ Interactive Dashboard
 
-🔁 Smart Looping
-Randomized command intervals for less detection risk and more human-like behavior.
+🛠️ Core Features (More in the works…)
+🗡️ Auto Hunt & Battle Human-like randomized delays for a stealthier grind.
 
-⚙️ Configurable
-Easily enable/disable core features via config.json. Set delays, token, prefix, and other behavior.
+❤️ Auto-Healing Detects low HP and heals instantly to avoid awkward death moments.
 
-📈 AI-Powered Coin & Growth Predictions
-Machine-learns from past events to give insights on best farming cycles. Be smart, not just fast.
+🔁 Smart Looping Randomizes command intervals to simulate natural gameplay rhythms.
 
-🐴 Auto-Level Horse
-Every grind matters. Your horse levels while you flex.
+⚙️ Fully Configurable Tweak delays, prefixes, tokens, and toggle modules via config.json.
 
-🧟‍♂️ Mini Boss Automation
-Detects and attacks mini bosses without needing your sorry input.
+📈 AI-Powered Predictions Learns from past trends to guide your most profitable farming cycles.
 
-🗺️ Auto Adventure
-Let your character explore the world while you explore snacks in the fridge.
+🐴 Horse Auto-Leveling No grind wasted — even your ride levels up automatically.
 
+🧟‍♂️ Mini Boss Automation Detects and attacks mini bosses while you nap.
 
+🗺️ Auto Adventure Mode Let your avatar explore while you… go raid the fridge.
 
-🧪 Early Build Warning
-This is experimental software. Don’t cry if it breaks. No auto-equip. No auto-sell. No inventory logic.
-Future updates might include those. Or not. Depends on my mood.
+🧪 Experimental Build Warning
+This is an early build — things might break. There's:
 
-🔒 License & Usage Terms
-Free to use and lightly modify (config.json, token, etc.)
+❌ No auto-equip
 
-Redistribution allowed only with clear credit to @const-DC
+❌ No auto-sell
 
-Do not steal code or pretend you wrote it.
+❌ No inventory logic (yet)
 
-Full license terms in LICENSE.md
+Will these features be added? Maybe. Depends on the vibes.
+![ChatGPT Image Jun 22, 2025, 09_58_11 AM](https://github.com/user-attachments/assets/b3d7ab86-bed6-4979-bccf-f0e58f792cf1)
 
-📦 Installation & Setup
-Coming soon. Or you could figure it out yourself if you’re not a total NPC.
+🔒 License & Usage
+Modify it lightly (e.g., config.json)
 
-❗Disclaimer
-This is for educational and personal use only.
-It’s not affiliated with Discord or Epic RPG. You run it, you own the risk.
-Use on alternate accounts if you don’t want to lose your main.
+Redistribution allowed with clear credit to @const-DC
 
+Don’t steal or pass it off as your own
 
+See LICENSE.md for full terms
+
+📦 Installation
+Coming soon… or figure it out yourself, you legend.
+
+❗ Disclaimer
+Built purely for educational and personal use. Not affiliated with Discord or Epic RPG. You run it, you accept the risk. Use an alt if you love your main.
+
+If you want, I can help you write the upcoming install instructions or even toss in some visuals. Or—add dark humor to the config docs. Just say the word.
