@@ -10,6 +10,7 @@ import sys
 import logging
 from datetime import datetime, timedelta
 import aiohttp  # New: For making async HTTP requests to the dashboard
+from battery import if_battery_low
 
 # Correct import for dashboard functions
 from dashboard import start_dashboard, set_bot_instance
@@ -482,6 +483,83 @@ class RPGBot:
         logging.info("Executing horse loop: rpg buy horse")
         await self.send_command_safely("rpg buy horse", (3, 8))
 
+
+    @tasks.loop(minutes=30)
+    async def auto_lootboxes (self):
+        """ auto open lootboxes common """
+        if self.config["commands"]["common_lb"]["active"]:
+            try :
+                delay = random.uniform(1,6)
+                await asyncio.sleep(delay)
+                await self.send_command_safely("rpg open common lootbox")
+                return
+
+            except Exception as e :
+                logging.debug("an error has been occured",e)
+
+
+    @tasks.loop(minutes=30)
+    async def auto_uncommon (self):
+        """Uncommon Lootboxes """
+        if self.config["commands"]["uncommon_lb"]["active"]:
+            try :
+                delay = random.uniform(1,6)
+                await asyncio.sleep(delay)
+                await self.send_command_safely("rpg open uncommon lootbox")
+                return
+
+            except Exception as e :
+                logging.debug("an error has been occured",e)
+
+
+    @tasks.loop(minutes=30)
+    async def auto_epiclootboxes (self):
+        """epic_lootboxes"""
+        if self.config["commands"]["epic_lootboxe"]["active"]:
+            try :
+                self.delay = random.uniform(1,6)
+                await asyncio.sleep(self.delay)
+                await self.send_command_safely("rpg open epic lootbox")
+                return
+
+            except Exception as e :
+                logging.debug("an error has been occured",e)
+
+
+    @tasks.loop(minutes=30)
+    async def auto_uncommon (self): 
+        """uncommon loot-box's""" 
+        if self.config["commands"]["rare_lootbox"]["active"] :
+            try :
+                await asyncio.sleep(self.delay)
+                await self.send_command_safely("rpg open rare lootbox")
+                return
+            
+            except Exception as e :
+                logging.debug("an error has been occured ", e)
+
+
+
+
+
+
+
+         # ----------------------- """Termux battery check / auto quit"""--------------------(system)
+
+    @tasks.loop(minutes=1)
+    async def check_termux_battery (self):
+        if config["commands"]["turmux_auto_shutdown"]["active"]:
+            try :
+                if if_battery_low(threshold=5):
+                    print("Battery low")
+                    sys.exit(0)
+                    return
+
+            except Exception as e :
+                logging.debug("an error has been occured" , e)
+
+    
+    
     @tasks.loop(seconds=5)  # Syncs with dashboard's fetch interval
     async def dashboard_sync_loop(self):
         """
@@ -534,4 +612,3 @@ class RPGBot:
 if __name__ == "__main__":
     bot = RPGBot()
     bot.run()
-
