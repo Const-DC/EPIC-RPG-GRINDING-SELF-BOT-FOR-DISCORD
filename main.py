@@ -548,7 +548,7 @@ class RPGBot:
 
     @tasks.loop(minutes=1)
     async def check_termux_battery (self):
-        if config["commands"]["turmux_auto_shutdown"]["active"]:
+        if config["commands"]["termux_auto_shutdown"]["active"]:
             try :
                 if if_battery_low(threshold=5):
                     print("Battery low")
