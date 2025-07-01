@@ -22,7 +22,7 @@ class RPGBot:
         self.load_config()
         self.setup_logging()
         self.client = discord.Client()
-        self.channel_id = 1383322889331413085  # Make sure this is your actual channel ID
+        self.channel_id = "1383322889331413085"  # Make sure this is your actual channel ID
 
         self.dashboard_stats = {
             "start_time": datetime.now(),
