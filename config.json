@@ -40,7 +40,7 @@
       "active" :false,
       "cooldown" :100
     }, 
-    "turmux_auto_shutdown" : {
+    "termux_auto_shutdown" : {
       "active" : false,
       "cooldown":100
     }
