@@ -16,13 +16,33 @@
       "active": false,
       "cooldown": 900
     },
-    "horse" : {
+    "horse": {
       "active": true,
       "cooldown": 900
     },
-    "events" : {
-      "active" : true,
-      "cooldown" : 100
+    "events": {
+      "active": true,
+      "cooldown": 100
+    },
+    "common_lb": {
+      "active": false,
+      "cooldown": 100
+    },
+    "uncommon_lb": {
+      "active": false,
+      "cooldown": 100
+    },
+    "epic_lootbox": {
+      "active":false,
+      "cooldown":100
+    }, 
+    "rare_lootbox" : {
+      "active" :false,
+      "cooldown" :100
+    }, 
+    "turmux_auto_shutdown" : {
+      "active" : false,
+      "cooldown":100
     }
   }
 }
