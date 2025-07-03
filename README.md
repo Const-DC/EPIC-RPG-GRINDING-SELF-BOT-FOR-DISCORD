@@ -203,6 +203,7 @@ Found a bug? Want to add a feature?
 ---
 
 ## ❗ **Disclaimer**
+![381086d7-301f-48ef-a611-1ff30f2bbb8f](https://github.com/user-attachments/assets/ac3be28f-d2f4-4044-90ee-1b72cae9cf40)
 
 <div align="center">
 
