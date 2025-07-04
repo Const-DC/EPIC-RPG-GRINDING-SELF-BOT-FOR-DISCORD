@@ -1,111 +1,152 @@
-# ⚔️ EPIC RPG GRINDING SELF-BOT for Discord
-
 <div align="center">
 
-![Epic RPG Self-Bot Banner](https://github.com/user-attachments/assets/eb091168-45ff-4c71-8280-01aa07d8a5b2)
+<h1>⚔️ EPIC RPG Automation Self-Bot</h1>
 
-**A streamlined automation tool for players who've had enough of the grind.**
+<img src="https://github.com/user-attachments/assets/eb091168-45ff-4c71-8280-01aa07d8a5b2" alt="Epic RPG Self-Bot Banner">
 
-[![Version](https://img.shields.io/badge/version-0.1.1-brightgreen.svg)](https://github.com/const-DC/epic-rpg-selfbot)
-[![License](https://img.shields.io/badge/license-Custom-blue.svg)](LICENSE.md)
-[![Discord](https://img.shields.io/badge/discord-Epic%20RPG-7289da.svg)](https://discord.gg/epicrpg)
-[![Status](https://img.shields.io/badge/status-Experimental-orange.svg)](https://github.com/const-DC/epic-rpg-selfbot)
+<p><strong>A streamlined automation tool for Epic RPG Discord bot.</strong></p>
+
+<p>
+<img src="https://img.shields.io/badge/version-0.1.1-brightgreen.svg" alt="Version">
+<img src="https://img.shields.io/badge/license-Custom-blue.svg" alt="License">
+<img src="https://img.shields.io/badge/status-Experimental-orange.svg" alt="Status">
+</p>
 
 </div>
 
----
+<hr>
 
-## ⚠️ **WARNING**
+<h2>⚠️ <strong>IMPORTANT DISCLAIMER</strong></h2>
 
-> **This is a self-bot, which directly violates Discord's Terms of Service. Use it at your own risk — and if you get banned, go cry somewhere else.**
+<blockquote>
+<p><strong>This is a self-bot that violates Discord's Terms of Service. Use at your own risk.</strong></p>
 
----
+<p>This project is created for educational and research purposes only. Self-bots can result in permanent account bans. The author is not responsible for any consequences of using this code. If you choose to use this, you accept all risks and consequences.</p>
 
-## 🤖 **Why This Exists**
+<p><strong>Recommended for learning automation concepts, code analysis, and programming study.</strong></p>
+</blockquote>
 
-Still typing the same `/hunt`, `/adventure`, and `/duel` commands like it's the Stone Age? This self-bot automates the tedium so you can level up, hoard coins, and flex — without wasting hours of your life.
+<hr>
 
----
+<h2>🤖 <strong>What This Does</strong></h2>
 
-## 🆕 **Update 0.1.1 — June 2025**
+<p>Automates Epic RPG commands so you don't have to manually type <code>/hunt</code>, <code>/adventure</code>, and <code>/duel</code> commands repeatedly. Features intelligent timing, auto-healing, and resource management.</p>
 
-![Status: Bleeding-edge](https://img.shields.io/badge/Status-Bleeding--edge%20%26%20barely%20stable-red?style=for-the-badge)
+<hr>
 
-### **New Additions:**
+<h2>🆕 <strong>Update 0.1.1 — June 2025</strong></h2>
 
-| Feature | Description |
-|---------|-------------|
-| 🧠 **AI-powered Coin & Growth Prediction** | Smart algorithms analyze your grinding patterns to maximize profits |
-| 🐎 **Auto-Leveling for Horses** | Your trusty steed levels up automatically while you focus on combat |
-| ⚔️ **Mini Boss Detection & Combat** | Automatically detects and engages mini bosses for maximum rewards |
-| 🎉 **Auto-Event Participation** | Never miss a special event again with automatic participation |
-| 🗺️ **Auto Adventure Mode** | Explore the world automatically while you handle real life |
-| ✅ **Interactive Dashboard** | Monitor your bot's progress with a sleek, real-time interface |
-| 📦 **Auto Lootbox Opening** | Automatically opens lootboxes and manages rewards efficiently |
-| 💰 **Smart Resource Management** | Optimizes coin spending and resource allocation automatically |
+<p><img src="https://img.shields.io/badge/Status-Experimental-orange?style=for-the-badge" alt="Status: Experimental"></p>
 
----
+<h3><strong>Latest Features:</strong></h3>
 
-## 🛠️ **Core Features** *(More in the works...)*
+<table>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>🧠 <strong>Smart Coin & Growth Prediction</strong></td>
+<td>Algorithms analyze grinding patterns to optimize profits</td>
+</tr>
+<tr>
+<td>🐎 <strong>Auto-Leveling for Horses</strong></td>
+<td>Automatically levels up horses while you focus on combat</td>
+</tr>
+<tr>
+<td>⚔️ <strong>Mini Boss Detection & Combat</strong></td>
+<td>Detects and engages mini bosses for maximum rewards</td>
+</tr>
+<tr>
+<td>🎉 <strong>Auto-Event Participation</strong></td>
+<td>Automatically participates in special events</td>
+</tr>
+<tr>
+<td>🗺️ <strong>Auto Adventure Mode</strong></td>
+<td>Explores automatically while you're away</td>
+</tr>
+<tr>
+<td>✅ <strong>Interactive Dashboard</strong></td>
+<td>Real-time progress monitoring interface</td>
+</tr>
+<tr>
+<td>📦 <strong>Auto Lootbox Opening</strong></td>
+<td>Opens lootboxes and manages rewards efficiently</td>
+</tr>
+<tr>
+<td>💰 <strong>Smart Resource Management</strong></td>
+<td>Optimizes coin spending and resource allocation</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>🛠️ <strong>Core Features</strong></h2>
 
 <details>
 <summary><strong>🗡️ Combat & Grinding</strong></summary>
 
-- **Auto Hunt & Battle** - Human-like randomized delays for stealthy grinding
-- **Smart Looping** - Randomizes command intervals to simulate natural gameplay
-- **Mini Boss Automation** - Detects and attacks mini bosses while you nap
-- **Auto Adventure Mode** - Let your avatar explore while you raid the fridge
+<ul>
+<li><strong>Auto Hunt & Battle</strong> - Randomized delays for natural gameplay simulation</li>
+<li><strong>Smart Looping</strong> - Varies command intervals to avoid detection patterns</li>
+<li><strong>Mini Boss Automation</strong> - Automatically detects and attacks mini bosses</li>
+<li><strong>Auto Adventure Mode</strong> - Handles exploration automatically</li>
+</ul>
 
 </details>
 
 <details>
 <summary><strong>❤️ Health & Safety</strong></summary>
 
-- **Auto-Healing** - Detects low HP and heals instantly to avoid death
-- **Smart Delays** - Randomized timing to avoid detection
-- **Error Recovery** - Automatically handles common bot failures
+<ul>
+<li><strong>Auto-Healing</strong> - Detects low HP and heals automatically</li>
+<li><strong>Smart Delays</strong> - Randomized timing between commands</li>
+<li><strong>Error Recovery</strong> - Handles common failures and continues operation</li>
+</ul>
 
 </details>
 
 <details>
 <summary><strong>📈 Intelligence & Optimization</strong></summary>
 
-- **AI-Powered Predictions** - Learns from trends for profitable farming cycles
-- **Resource Management** - Optimizes spending and allocation
-- **Performance Analytics** - Track your grinding efficiency over time
+<ul>
+<li><strong>Pattern Analysis</strong> - Learns from trends for efficient farming cycles</li>
+<li><strong>Resource Management</strong> - Optimizes spending and allocation</li>
+<li><strong>Performance Analytics</strong> - Tracks grinding efficiency over time</li>
+</ul>
 
 </details>
 
 <details>
 <summary><strong>⚙️ Configuration & Control</strong></summary>
 
-- **Fully Configurable** - Tweak delays, prefixes, tokens via `config.json`
-- **Interactive Dashboard** - Real-time monitoring and control
-- **Module Toggle** - Enable/disable specific features as needed
+<ul>
+<li><strong>Fully Configurable</strong> - Customize delays, prefixes, tokens via <code>config.json</code></li>
+<li><strong>Interactive Dashboard</strong> - Real-time monitoring and control</li>
+<li><strong>Module Toggle</strong> - Enable/disable specific features as needed</li>
+</ul>
 
 </details>
 
----
+<hr>
 
-## 🧪 **Experimental Build Warning**
+<h2>🧪 <strong>Current Build Status</strong></h2>
 
-```diff
-! This is an early build — things might break. Current limitations:
+<pre>
+! This is an experimental build with some limitations:
 
-- ❌ No auto-equip
-- ❌ No auto-sell  
-- ❌ Manual trading required
+- ❌ No auto-equip functionality
+- ❌ No auto-sell feature
+- ❌ Manual trading still required
 
-+ Will these features be added? Maybe. Depends on the vibes.
-```
++ Future updates may include these features
+</pre>
 
----
+<hr>
 
-## 📦 **Installation**
+<h2>📦 <strong>Installation & Setup</strong></h2>
 
-> **Coming soon... or figure it out yourself, you legend.**
-
-```bash
+<pre>
 # Clone the repository
 git clone https://github.com/const-DC/epic-rpg-selfbot.git
 
@@ -118,116 +159,137 @@ npm install
 # Configure your settings
 cp config.example.json config.json
 
-# Edit config.json with your Discord token and preferences
+# Edit config.json with your preferences
 nano config.json
 
-# Run the bot
+# Run the application
 npm start
-```
+</pre>
 
-### **Configuration Example**
+<h3><strong>Configuration Example</strong></h3>
 
-```json
-
+<pre>
+{
   "features": {
     "autoHunt": true,
     "autoAdventure": true,
     "autoHeal": true,
     "autoLootbox": true,
     "miniBossDetection": true
+  },
+  "delays": {
+    "hunt": 15000,
+    "adventure": 60000,
+    "heal": 5000
   }
 }
-```
+</pre>
 
----
+<hr>
 
-## 🔒 **License & Usage**
+<h2>🔒 <strong>License & Usage</strong></h2>
 
-| ✅ **Allowed** | ❌ **Forbidden** |
-|---------------|------------------|
-| Modify lightly (e.g., config.json) | Steal or claim as your own |
-| Redistribution with credit to @const-DC | Remove attribution |
-| Personal/educational use | Commercial use without permission |
+<table>
+<tr>
+<th>✅ <strong>Allowed</strong></th>
+<th>❌ <strong>Forbidden</strong></th>
+</tr>
+<tr>
+<td>Personal use and modification</td>
+<td>Claiming as your own work</td>
+</tr>
+<tr>
+<td>Code study and analysis</td>
+<td>Removing author attribution</td>
+</tr>
+<tr>
+<td>Non-commercial distribution</td>
+<td>Commercial use without permission</td>
+</tr>
+</table>
 
-**See [LICENSE.md](LICENSE.md) for full terms**
+<p><strong>See <a href="LICENSE.md">LICENSE.md</a> for complete terms</strong></p>
 
----
+<hr>
 
-## 📊 **Performance Stats**
+<h2>📊 <strong>Performance Stats</strong></h2>
 
-```
+<pre>
 🎯 Success Rate: 99.2%
 ⚡ Commands/Hour: 120-180
-🛡️ Detection Avoidance: Advanced
+🛡️ Detection Avoidance: Advanced timing
 💾 Memory Usage: <50MB
 🔄 Uptime: 24/7 capable
-```
+</pre>
 
----
+<hr>
 
-## 🤝 **Contributing**
+<h2>🤝 <strong>Contributing</strong></h2>
 
-Found a bug? Want to add a feature? 
+<p>Contributions are welcome:</p>
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+<ol>
+<li>Fork the repository</li>
+<li>Create a feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+<li>Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
+<li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+<li>Open a Pull Request</li>
+</ol>
 
----
+<hr>
 
-## 🐛 **Known Issues**
+<h2>🐛 <strong>Known Issues</strong></h2>
 
-- [ ] Occasional timeout on slow connections
-- [ ] Dashboard UI needs mobile optimization  
-- [ ] Horse leveling can be inconsistent
-- [x] ~~Auto-heal timing issues~~ (Fixed in v0.1.1)
+<ul>
+<li>[ ] Occasional timeout on slow connections</li>
+<li>[ ] Dashboard UI needs mobile optimization</li>
+<li>[ ] Horse leveling can be inconsistent</li>
+<li>[x] <del>Auto-heal timing issues</del> (Fixed in v0.1.1)</li>
+</ul>
 
----
+<hr>
 
-## 📈 **Roadmap**
+<h2>📈 <strong>Roadmap</strong></h2>
 
-### **Version 0.2.0** *(Coming Soon™)*
-- 🎒 Auto-inventory management
-- 🛡️ Equipment optimization
-- 📊 Advanced analytics dashboard
-- 🔄 Multi-account support
+<h3><strong>Version 0.2.0</strong> <em>(Coming Soon)</em></h3>
+<ul>
+<li>🎒 Auto-inventory management</li>
+<li>🛡️ Equipment optimization</li>
+<li>📊 Advanced analytics dashboard</li>
+<li>🔄 Multi-account support</li>
+</ul>
 
-### **Version 0.3.0** *(Maybe)*
-- 🤖 Machine learning optimization
-- 🌐 Web-based control panel
-- 📱 Mobile app companion
-- 🔗 API integrations
+<h3><strong>Version 0.3.0</strong> <em>(Future)</em></h3>
+<ul>
+<li>🤖 Machine learning optimization</li>
+<li>🌐 Web-based control panel</li>
+<li>📱 Mobile app companion</li>
+<li>🔗 API integrations</li>
+</ul>
 
----
+<hr>
 
-## ❗ **Disclaimer**
-![381086d7-301f-48ef-a611-1ff30f2bbb8f](https://github.com/user-attachments/assets/ac3be28f-d2f4-4044-90ee-1b72cae9cf40)
+<h2>❗ <strong>Final Note</strong></h2>
 
 <div align="center">
 
-**Built purely for educational and personal use.**
+<p><strong>Built for automation learning and code analysis.</strong></p>
 
-*Not affiliated with Discord or Epic RPG. You run it, you accept the risk.*
-
-**Use an alt if you love your main.**
-
----
-
-*If you want, I can help you write the upcoming install instructions or even toss in some visuals. Or—add dark humor to the config docs. Just say the word.*
+<p><em>This project demonstrates programming concepts and automation techniques. Use responsibly and at your own risk.</em></p>
 
 </div>
 
----
+<hr>
 
 <div align="center">
 
-### **⭐ If this saved you from carpal tunnel, give it a star!**
+<h3><strong>⭐ If this helped you learn something new, give it a star!</strong></h3>
 
-[![GitHub stars](https://img.shields.io/github/stars/const-DC/epic-rpg-selfbot?style=social)](https://github.com/const-DC/epic-rpg-selfbot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/const-DC/epic-rpg-selfbot?style=social)](https://github.com/const-DC/epic-rpg-selfbot/network)
+<p>
+<a href="https://github.com/const-DC/epic-rpg-selfbot/stargazers"><img src="https://img.shields.io/github/stars/const-DC/epic-rpg-selfbot?style=social" alt="GitHub stars"></a>
+<a href="https://github.com/const-DC/epic-rpg-selfbot/network"><img src="https://img.shields.io/github/forks/const-DC/epic-rpg-selfbot?style=social" alt="GitHub forks"></a>
+</p>
 
-**Made with 💀 by [@const-DC](https://github.com/const-DC)**
+<p><strong>Made by <a href="https://github.com/const-DC">@const-DC</a></strong></p>
 
 </div>
